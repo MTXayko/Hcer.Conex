@@ -1,0 +1,201 @@
+
+body > header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(42, 206, 170);
+    color: white;
+    padding: 14px 0px;
+    align-items: baseline;
+}
+
+#header-menus {
+    margin-left: 25%;
+}
+
+#header-menus > nav ul {
+    list-style: none;
+}
+
+#header-menus > nav ul li {
+    display: inline;
+    margin-right: 12px;
+}
+
+#header-menus > nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#header-menus > nav {
+    display: inline;
+}
+
+#header-menus > nav ul {
+    display: inline;
+    padding-left: 1px;
+    padding-left: 19px;
+}
+
+#header-menus h1 {
+    display: inline;
+}
+
+#header-buttons {
+    margin-right: 25%;
+}
+
+#header-buttons button {
+    background-color: #4ba0b5;
+    color: white;
+    padding: 5px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.blue-header {
+    height: 100px;
+    width: 100%;
+    background-color: #4ba0b5;
+}
+
+#articles {
+    width: 33%;
+}
+
+.article {
+    border: 2px solid #CCCCCC;
+    margin: 30px 0px;
+}
+
+.article > header {
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.article main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.article main header p img {
+    height: 16px;
+}
+
+.article main header p {
+    margin: 8px 0px;
+}
+
+.article main div p {
+    margin: 0px;
+}
+
+.article main footer img {
+    height: 16px;
+}
+
+.article main footer {
+    margin-top: 11px;
+}
+
+#connections {
+    width: 17%;
+    margin-left: 20px;
+}
+
+body > main {
+    display: flex;
+    justify-content: center;
+}
+
+.profile .content > ul {
+    list-style: none;
+    display: inline;
+    padding-left: 0px;
+}
+
+.profile .content > ul li {
+    display: inline;
+}
+
+.profile article > main {
+    position: relative;
+    bottom: 63px;
+}
+
+.con-req-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 8px;
+    align-items: center;
+}
+
+.con-req-user {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.con-req-row .con-req-user img{
+    height: 60px;
+    padding-right: 10px;
+}
+
+.con-req-row .con-req-btn img {
+    height: 30px;
+}
+
+.con-req-row .con-req-btn img:hover {
+    cursor: pointer;
+}
+
+.connections-request .connection-article {
+    height: 220px;
+}
+
+.connection-article > header, .education-article > header {
+    background-color: #333333;
+    padding: 15px 5px;
+    color: #e2e2e2;
+    font-size: 19px;
+}
+
+.connection-article > header {
+    text-align: center;
+}
+
+.circle, .oval {
+    background-color: #cccccc;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.circle {
+    width: 22px;
+}
+
+.oval {
+    width: 46px;
+}
+
+.education-article > header {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.education-article .content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.connection-article > header h4, .education-article > header h4 {
+    display: inline;
+}
+
+.education-article .content p:first-of-type {
+    color: #a8a8a8;
+}
+
+.connection-article > footer {
+    border-top: 2px solid #CCCCCC;
+    padding: 15px 5px;
+}
